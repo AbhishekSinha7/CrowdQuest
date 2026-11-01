@@ -1,0 +1,11 @@
+{
+  "name": "crowdquest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check:ui": "node scripts/check-ui-wiring.mjs",
+    "check:server": "node scripts/check-server.mjs"
+  }
+}
